@@ -1,0 +1,14 @@
+{
+  "operations": [
+    {
+      "id": "1878836c-fb0d-4a25-8ddb-c6bf876cdaff",
+      "title": "asdkasjdklajdkljad",
+      "type": "Embarque",
+      "terminal": "Terminal Norte",
+      "status": "Pendente",
+      "createdAt": "2025-05-08T01:13:32.276Z",
+      "finalizedAt": null,
+      "views": 0
+    }
+  ]
+}

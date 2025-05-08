@@ -1,0 +1,26 @@
+.root-container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-rows: 10vh 90vh;
+  overflow: hidden;
+}
+
+.root-container.desktop {
+  grid-template-columns: 15vw 85vw;
+  grid-template-areas:
+    'sidebar header'
+    'sidebar outlet';
+}
+
+.root-container.mobile {
+  grid-template-columns: 100vw;
+  grid-template-areas:
+    'header'
+    'outlet';
+}
+
+.outlet-container {
+  grid-area: outlet;
+  background-color: var(--page-background);
+}
