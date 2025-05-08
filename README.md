@@ -1,4 +1,4 @@
-# 🚀 Teste Técnico - [Seu Nome]
+# 🚀 Teste Técnico - Rafael Inácio da Silva D'Oliveira
 
 <div align="center">
   <img src="https://img.shields.io/badge/react-19.0.0-blue?logo=react" alt="React">
@@ -29,10 +29,13 @@ Solução técnica desenvolvida como resposta a teste técnico, demonstrando:
 
 ```bash
 # 1. Clonar repositório
-git clone https://github.com/seu-user/repo.git
+git clone [https://github.com/seu-user/repo.git](https://github.com/inaciorafael/gbm-teste-tecnico.git)
 
-# 2. Instalar dependências (recomendado Yarn)
+# 2. Entrar na pasta do projeto
+cd gbm-teste-tecnico
+
+# 3. Instalar dependências (recomendado Yarn)
 yarn install
 
-# 3. Iniciar ambiente
+# 4. Iniciar ambiente
 yarn dev
