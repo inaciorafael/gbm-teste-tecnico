@@ -1,54 +1,38 @@
-# React + TypeScript + Vite
+# 🚀 Teste Técnico - [Seu Nome]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <img src="https://img.shields.io/badge/react-19.0.0-blue?logo=react" alt="React">
+  <img src="https://img.shields.io/badge/typescript-4.9.5-blue?logo=typescript" alt="TypeScript">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+</div>
 
-Currently, two official plugins are available:
+## 📋 Visão Geral
+Solução técnica desenvolvida como resposta a teste técnico, demonstrando:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Filtros combinados (AND/OR)  
+✅ Validação de formulários com Zod  
+✅ Mock API integrado  
+✅ UI acessível com Radix UI  
+✅ Gerenciamento de estado com Zustand  
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Principais
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+| Tecnologia | Finalidade | Destaque |
+|------------|------------|----------|
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="20"/> React 19 | UI Componentizada | Hooks modernos |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="20"/> TypeScript | Tipagem Estática | Type-safe |
+| <img src="https://radix-ui.com/favicon.ico" width="20"/> Radix UI | Componentes | Acessibilidade |
+| <img src="https://zustand-demo.pmnd.rs/favicon.ico" width="20"/> Zustand | Estado Global | Simplicidade |
+| <img src="https://react-hook-form.com/images/logo.png" width="20"/> React Hook Form + Zod | Formulários | Performance |
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## ⚡ Como Executar
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+```bash
+# 1. Clonar repositório
+git clone https://github.com/seu-user/repo.git
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# 2. Instalar dependências (recomendado Yarn)
+yarn install
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+# 3. Iniciar ambiente
+yarn dev
